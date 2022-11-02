@@ -25,14 +25,14 @@ describe('Comparaciones en Javascript', () => {
     it("usando ===", () => {
         const number = 20;
         //completa la asignación usando number y el comparador ===
-        number === '20';
+        const expresion = number === 21;
         expect(expresion).to.equal(false)
     })
 
     it("usando !==", () => {
         const language = "Javascript";
         //completa la asignación usando language y el comparador !==
-        language !== "Javascript";
+        const expresion = language !== "Javascript";
         expect(expresion).to.equal(false)
     })
 })
